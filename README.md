@@ -14,5 +14,7 @@ For the both lib1 and lib2, the one of them must add "ADD_DEFINITIONS(--visibili
     PublicGetThree returned 7
     PublicGetSeven returned 7
 
+``Note`` If you set visibility=hidden, it will hidden all function, you must add "__attribute__((__visibility__("default")))" to function you still want to export interface functions.
+
 # Refer
 https://labjack.com/news/simple-cpp-symbol-visibility-demo <br>
